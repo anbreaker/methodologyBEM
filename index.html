@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Metodología BEM</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+    <body>
+        <!-- La metodologia BEM -> Bloque, Elementos y Modificadores -->
+        <div class="container">
+            <!-- Bloque -->
+            <div class="container__cards">
+                <!-- Bloque -->
+                <div class="card">
+                    <a href="#" class="card__thumbnail">
+                        <img class="card__img" src="img/1.jpg" alt="" />
+                    </a>
+                    <div class="card__texts">
+                        <h3 class="card__title">
+                            <a href="#" class="card__link-title">
+                                Lorem ipsum dolor sit amet.
+                            </a>
+                        </h3>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+                            vel unde soluta, neque veniam facilis nostrum quis at
+                            perspiciatis eaque incidunt reiciendis sint quam distinctio
+                            quasi culpa tenetur explicabo quas.
+                        </p>
+                        <!-- Modificador en button metodologia BEM -->
+                        <a href="#" class="button button--absolute" role="button">
+                            <span class="button__text">Ver más</span>
+                            <i class="button__icon fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="#" class="card__thumbnail">
+                        <img class="card__img" src="img/1.jpg" alt="" />
+                    </a>
+                    <div class="card__texts">
+                        <h3 class="card__title">
+                            <a href="#" class="card__link-title">
+                                Lorem ipsum dolor sit amet.
+                            </a>
+                        </h3>
+                        <p class="card__description">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+                            vel unde soluta, neque veniam facilis nostrum quis at
+                            perspiciatis eaque incidunt reiciendis sint quam distinctio
+                            quasi culpa tenetur explicabo quas.
+                        </p>
+                        <!-- Modificador en button metodologia BEM -->
+                        <a href="#" role="button" class="button button--absolute"
+                            ><span class="button__text">Ver más</span>
+                            <i class="button__icon fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Bloque -->
+            <div class="phrase">
+                <h2 class="phrase__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                </h2>
+                <a href="#" role="button" class="button button--green">
+                    <span class="button__texts">Agregar</span>
+                    <i class="fas fa-calendar-check"></i>
+                </a>
+            </div>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/055f901897.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
